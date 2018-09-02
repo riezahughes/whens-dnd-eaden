@@ -28,5 +28,5 @@ client.on('message', msg => {
   console.log(convert.getDate());
   console.log(convert.getDay()+" "+convert.toTimeString() + "conversion");
 });
-
-client.login('NDA5NjczMzMyOTUxMDg5MTcz.DViBog.QD1h2bpPHgTapGBwq9tNXlgjV-o');
+token = require("./discord.js");
+client.login(token.theToken());
